@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="media/media.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+     <section id="registraion-section">
+         <div class="registration-container">
+            <div class="log-btn">
+            <form name="form-name">
+             <div class="registration-form">
+                 <div class="regi-head">
+                     <h1>Registration</h1>
+                 </div>
+                 <div class="name-row">
+                     <div class="regi-col">
+                                 <div class="input-felid">
+                                     <label for="first-name">First Name</label><br>
+                                          <input type="text" id="first-name" placeholder="Enter firstname"> 
+                                    <div><h3 id="croratname"></h3></div>
+                                 </div>
+                                 
+                                 <div class="input-felid">
+                                     <label for="reg-email">Email</label><br>
+                                         <input type="email" id="reg-email" placeholder="Enter Your Valid email address">
+                                         <div><h3 id="croratemail"></h3></div> 
+                                 </div>
+
+                                 <div class="input-felid">
+                                    <label for="reg-password">Password</label><br>
+                                        <input type="password" id="reg-password" placeholder="Enter new password"> 
+                                        <div><h3 id="coreatpassword"></h3></div>
+                                </div>
+                                    
+                      </div>          
+                      <div class="regi-col">
+                        <div class="input-felid">
+                            <label for="last-name">Last Name</label><br>
+                                 <input type="text" id="last-name" placeholder="Enter Lastname"> 
+                                 <div><h3 id="firstnames"></h3></div>
+                        </div>
+                       
+                        <div class="input-felid">
+                            <label for="reg-phone">Phone Number</label><br>
+                                <input type="tel" id="reg-phone" placeholder="Enter Your Valid email address"> 
+                                <div><h3 id="croratnumber"></h3></div>
+                        </div>
+
+                        <div class="input-felid">
+                           <label for="reg-confirmpassword">confirm  Password</label><br>
+                               <input type="password" id="reg-confirmpassword" placeholder="Enter new password"> 
+                               <div><h3 id="samepassword"></h3></div>
+                       </div>
+                          
+             </div>          
+            </div>
+                 <div class="gender">
+                    <h3 id="genter">Gender</h3>
+                     <input type="radio" id="male" name="Gender"><label for="male">Male</label>
+                     <input type="radio" id="female" name="Gender"><label for="female">FeMale</label>
+                     <input type="radio" id="other" name="Gender"><label for="other">Others</label>
+                     <p id="gentercoreat"></p>
+                </div>
+                
+                     <p>BY Clicking sing up you agree to our <a href="#">Terms ,privancy pollicy</a>amd <a href="#">cookimg policy</a>you may 
+                        recive SMS nodification form is and can out at any time
+                     </p>
+                 <div class="reg-link" onclick="nameoffun()">
+                      <a href="#" >Register</a>
+                 </div>
+                 
+                 
+                 
+             </div>                         
+            </form>
+            
+            
+            <div class="but">
+                <button id="fn-btn" onclick="logfunction()" type="submit">Go To Login Page</button>
+             </div>
+            </div>    
+
+             </div>
+     
+   
+</section>
+
+ <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+@media(max-width:630px){
+    #card-sec{
+        width: 100%;
+    }
+    .contaner{
+        width: 100%;
+    }
+    .card-col{
+        width:100%;
+    }
+}
+
+@media(min-width:631px){
+    #card-sec{
+        width: 100%;
+    }
+    .contaner{
+        width: 90%;
+    }
+    .card-col{
+        width:33.33%;
+    }
+}

@@ -1,0 +1,54 @@
+@media(min-width:320px){
+
+    .container{
+        width: 100%;
+    }
+    .row{
+        width: 80%;
+    }
+    .card{
+        width: 100%;
+    }
+    .fro-a a{
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        color: blue;
+    }
+
+
+
+}
+
+
+
+
+@media(min-width:660px){
+
+
+}
+
+
+
+@media(min-width:960px){
+
+    .container{
+        width: 100%;
+    }
+    .row{
+        width: 80%;
+    }
+    .card{
+        width: 40%;
+    }
+    .fro-a a{
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 220px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: blue;
+    }
+}

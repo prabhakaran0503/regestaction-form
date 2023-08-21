@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box
+}
+body{
+    background-color: rgb(190, 206, 211);
+}
+.container{
+    /* width: 100%; */
+    text-align: center;
+    
+     
+}
+.row{
+    /* width: 80%; */
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(138, 212, 247);
+}
+.card{
+    text-align: center;
+    background-color: aqua;
+    /* width: 40%; */
+    height: 80vh;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(29, 27, 27) ;
+}
+h1{
+    font-size: 40px;
+    padding: 20px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 80%;
+}
+/* .fro-a a{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 220px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: blue;
+} */
+.but button{
+    width: 80%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(45, 45, 255);
+    color: aliceblue;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+
+#email{
+    margin-left: -5rem;
+    
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#passwords{
+   width: 100%;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
